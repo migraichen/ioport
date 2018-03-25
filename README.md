@@ -1,9 +1,9 @@
 # ioport
-ioport command for the shell. 
+ioport commands for the shell. 
 
-This is the implementation of the inb, inw, inl, outb, outw and outl commands.
-It may help to analyse some superio chips or embedded controller.
+This is the implementation of inb, inw, inl, outb, outw and outl commands.
+It may help to analyze some superio chips or embedded controller.
 
-It is using ioperm to access the I/O Port, so you need to be root to execute these commands.
+It is using ioperm to access the I/O-Port, so you need to be root to execute these commands.
 
 To compile, just use 'make'
